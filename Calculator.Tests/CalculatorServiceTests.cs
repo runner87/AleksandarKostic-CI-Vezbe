@@ -38,7 +38,7 @@ public class CalculatorServiceTests
     [Fact]
     public void Modulo_ReturnsRemainder()
     {
-        var result = _calculator.Modulo(10, 3);
+        var result = _calculator.Modulo(20, 3);
         Assert.Equal(2, result);
     }
 }
