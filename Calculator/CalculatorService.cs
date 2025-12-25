@@ -27,5 +27,10 @@ namespace Calculator
         {
             return a * b;
         }
+
+        public int Modulo(int a, int b)
+        {
+            return a % b;
+        }
     }
 }

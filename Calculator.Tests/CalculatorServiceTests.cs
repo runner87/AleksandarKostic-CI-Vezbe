@@ -34,4 +34,11 @@ public class CalculatorServiceTests
         var result = _calculator.Multiply(40, 5);
         Assert.Equal(200, result);
     }
+
+    [Fact]
+    public void Modulo_ReturnsRemainder()
+    {
+        var result = _calculator.Modulo(20, 3);
+        Assert.Equal(2, result);
+    }
 }
