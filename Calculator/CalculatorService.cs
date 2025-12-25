@@ -22,5 +22,10 @@ namespace Calculator
         {
             return a / b; // namerno bez provere nule
         }
+
+        public int Multiply(int a, int b)
+        {
+            return a * b;
+        }
     }
 }

@@ -27,4 +27,11 @@ public class CalculatorServiceTests
             _calculator.Divide(10, 0));
        
     }
+
+    [Fact]
+    public void Multiply_ReturnsCorrectProduct()
+    {
+        var result = _calculator.Multiply(40, 5);
+        Assert.Equal(200, result);
+    }
 }
