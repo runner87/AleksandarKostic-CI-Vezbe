@@ -9,8 +9,8 @@ public class CalculatorServiceTests
     [Fact]
     public void Add_ReturnsCorrectSum()
     {
-        var result = _calculator.Add(5, 3);
-        Assert.Equal(8, result);
+        var result = _calculator.Add(2, 3);
+        Assert.Equal(5, result);
     }
 
     [Fact]
