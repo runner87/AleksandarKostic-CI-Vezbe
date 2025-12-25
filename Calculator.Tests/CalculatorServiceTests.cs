@@ -16,7 +16,7 @@ public class CalculatorServiceTests
     [Fact]
     public void Subtract_ReturnsCorrectDifference()
     {
-        var result = _calculator.Subtract(5, 3);
+        var result = _calculator.Subtract(6, 3);
         Assert.Equal(3, result);
     }
 
